@@ -12,6 +12,7 @@ To run the project, follow the steps below:
 ```bash
 npm install
 ```
+
 (NOTE: This step is necessary to install the dependencies required to run the project, as while every commit the node_modules folder is deleted)
 
 3. Run the following command to start the project:
@@ -26,4 +27,4 @@ The project will start running on `http://localhost:5173` (by default). You can 
 
 ## How to contribute to the project
 
-Go to the [Contributing.md](./Contributing.md) file to know how to contribute to the project.   
+Go to the [Contributing.md](./Contributing.md) file to know how to contribute to the project.

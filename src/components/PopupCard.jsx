@@ -3,10 +3,18 @@
 import React from "react";
 import { RxCross2 } from "react-icons/rx";
 
-const PopupCard = ({ image, heading, description, buttonLabel, onClose, href }) => {
+const PopupCard = ({
+  image,
+  heading,
+  description,
+  buttonLabel,
+  onClose,
+  href,
+}) => {
   const handleButtonClick = () => {
-    window.open(href, '_blank');  // Opens link in a new tab
-};
+    window.open(href, "_blank");
+  };
+  
   return (
     <div className="popup-overlay" onClick={onClose}>
       <div className="popup-content" onClick={(e) => e.stopPropagation()}>
