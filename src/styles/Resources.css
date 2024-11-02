@@ -1,0 +1,39 @@
+.resources {
+    text-align: center;
+}
+
+.resources__head {
+    background: var(--main-color);
+    padding: 50px;
+    text-align: center;
+}
+
+.resources__head h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+.resources-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.resources p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#searchBar {
+    width: 700px;
+    height: 50px;
+    font-size: 1.5rem;
+    outline: none;
+    border: 2px solid var(--main-color);
+    border-radius: 40px;
+}
