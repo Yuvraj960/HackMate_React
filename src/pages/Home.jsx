@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { LuArrowUpRight } from "react-icons/lu";
 
@@ -7,12 +7,19 @@ import "../styles/Home.css";
 import ChooseusCard from "../components/ChooseusCard";
 import FeaturedCard from "../components/FeaturedCard";
 import PopupCard from "../components/PopupCard";
-import { chooseUsData, featuredCardsData } from "../data/Home";
+import { chooseUsData } from "../data/Home";
 
 const Home = () => {
   const [visibleCards, setVisibleCards] = useState(4);
-
+  const [featuredData, setFeaturedData] = useState([]);
   const [selectedCard, setSelectedCard] = useState(null);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/featuredCardsData")
+    .then((response) => response.json())
+    .then((data) => setFeaturedData(data))
+    .catch((error) => console.error(error));
+  }, []);
 
   const loadMoreCards = () => {
     setVisibleCards((prevCount) => prevCount + 4);
@@ -156,7 +163,7 @@ const Home = () => {
         <p>Easy and effective way to get your event entry ticket</p>
 
         <div className="featured-cards-container">
-          {featuredCardsData.map((item) => (
+          {featuredData.map((item) => (
             <FeaturedCard
               key={item.key}
               image={item.image}

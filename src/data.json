@@ -1,61 +1,40 @@
 {
-    "teamMembers": [
-      {
-        "name": "Yuvraj Gupta",
-        "role": "Developer",
-        "description": "Developer with a passion for creating seamless user experiences.",
-        "img": "/images/developer.png"
-      },
-      {
-        "name": "Samridhi",
-        "role": "Manager",
-        "description": "Manager dedicated to driving innovative tech projects forward.",
-        "img": "/images/manager.png"
-      },
-      {
-        "name": "Harry Garg",
-        "role": "Designer",
-        "description": "Creative designer focused on merging aesthetics with functionality.",
-        "img": "/images/designer.png"
-      },
-      {
-        "name": "Riya Bansal",
-        "role": "Marketing",
-        "description": "A strategic marketer focused on creating impactful narratives.",
-        "img": "/images/marketing.png"
-      }
-    ],
-    "services": [
-      {
-        "title": "Upcoming Events & Workshops",
-        "img": "/images/service1.png",
-        "description": "Discover nearby events and workshops to keep your skills sharp and stay informed."
-      },
-      {
-        "title": "Coding Contests & Challenges",
-        "img": "/images/service2.png",
-        "description": "Find information on local coding contests and challenges to test your programming skills."
-      },
-      {
-        "title": "Hackathons & Innovation Sprints",
-        "img": "/images/service3.png",
-        "description": "Get details on nearby hackathons and innovation sprints to join and collaborate with others."
-      },
-      {
-        "title": "Concerts & Tech Talks",
-        "img": "/images/service4.png",
-        "description": "Explore local concerts and tech talks to enjoy live entertainment and gain industry insights."
-      },
-      {
-        "title": "Notes & Resources",
-        "img": "/images/service5.png",
-        "description": "Access essential notes and references to support your participation hackathons."
-      },
-      {
-        "title": "Community & Networking Opportunities",
-        "img": "/images/service6.png",
-        "description": "Stay connected tech communities and events to build your network."
-      }
+    "featuredCardsData": [
+        {
+            "key": 1,
+            "image": "/images/appdev.png",
+            "heading": "App Development",
+            "description": "We provide end-to-end mobile app development services to bring your app ideas to life with seamless integration."
+        },
+        {
+            "key": 2,
+            "image": "/images/productdesign.png",
+            "heading": "UI/UX Design",
+            "description": "Our UI/UX design experts craft user-centric designs that offer a great user experience and enhance engagement."
+        },
+        {
+            "key": 3,
+            "image": "/images/dataanalytics.jpg",
+            "heading": "Data Science",
+            "description": "Our data science solutions transform raw data into actionable insights for data-driven decision making."
+        },
+        {
+            "key": 4,
+            "image": "/images/digitalmarketing.png",
+            "heading": "Digital Marketing",
+            "description": "Boost your online presence with our effective digital marketing strategies that drive results."
+        },
+        {
+            "key": 5,
+            "image": "/images/cybersecurity.jpg",
+            "heading": "Cybersecurity",
+            "description": "Protect your business with our advanced cybersecurity solutions and expert guidance."
+        },
+        {
+            "key": 6,
+            "image": "/images/cloudservices.jpg",
+            "heading": "Cloud Solutions",
+            "description": "Optimize your operations with scalable cloud solutions that ensure flexibility and security."
+        }
     ]
-  }
-  
+}

@@ -122,43 +122,4 @@ const chooseUsData = [
     }
 ];
 
-const featuredCardsData = [
-    {
-        key: 1,
-        image: appdev,
-        heading: "App Development",
-        description: "We provide end-to-end mobile app development services to bring your app ideas to life with seamless integration."
-    },
-    {
-        key: 2,
-        image: productdesign,
-        heading: "UI/UX Design",
-        description: "Our UI/UX design experts craft user-centric designs that offer a great user experience and enhance engagement."
-    },
-    {
-        key: 3,
-        image: dataanalytics,
-        heading: "Data Science",
-        description: "Our data science solutions transform raw data into actionable insights for data-driven decision making."
-    },
-    {
-        key: 4,
-        image: digitalmarketing,
-        heading: "Digital Marketing",
-        description: "Boost your online presence with our effective digital marketing strategies that drive results."
-    },
-    {
-        key: 5,
-        image: cybersecurity,
-        heading: "Cybersecurity",
-        description: "Protect your business with our advanced cybersecurity solutions and expert guidance."
-    },
-    {
-        key: 6,
-        image: cloudservices,
-        heading: "Cloud Solutions",
-        description: "Optimize your operations with scalable cloud solutions that ensure flexibility and security."
-    }
-];
-
-export { chooseUsData, featuredCardsData };
+export { chooseUsData };
