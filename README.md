@@ -4,6 +4,8 @@ This is the frontend of the HackMate project. It is a React app that is used to 
 
 ## How to run the project
 
+### JSON Server Version
+
 To run the project, follow the steps below:
 
 1. After cloning the repository, navigate to the project directory.
@@ -12,19 +14,39 @@ To run the project, follow the steps below:
 ```bash
 npm install
 ```
-
 (NOTE: This step is necessary to install the dependencies required to run the project, as while every commit the node_modules folder is deleted)
 
+3. Run the following command to start the json server:
+
+```bash
+json-server src/data.json --port 3000
+```
+(NOTE: This step is necessary to start the json server, as the project uses the json server to fetch the data served online on port 3000. If it runs on a different port, you must change the port number in the home.jsx file)
+
+4. Run the following command to start the project:
+
+```bash
+npm run dev
+```
+The project will start running on `http://localhost:5173` (by default). You can see your port number in the terminal after running the above command.
+
+### Without JSON Server Version
+
+To run the project, follow the steps below:
+
+1. After cloning the repository, navigate to the project directory.
+2. Run the following command to install the dependencies:
+
+```bash
+npm install
+```
 3. Run the following command to start the project:
 
 ```bash
 npm run dev
 ```
 
-The project will start running on `http://localhost:5173` (by default). You can see your port number in the terminal after running the above command.
-
-4. After making changes to the project, you must see Contributors.md file to know how to contribute to the project. (It is necessary to follow the guidelines mentioned in the Contributors.md file)
-
 ## How to contribute to the project
 
+After making changes to the project, you must see Contributors.md file to know how to contribute to the project. (It is necessary to follow the guidelines mentioned in the Contributors.md file)
 Go to the [Contributing.md](./Contributing.md) file to know how to contribute to the project.
