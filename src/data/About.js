@@ -18,21 +18,21 @@ const teamMembers = [
         img: developer,
     },
     {
-        name: "Samridhi",
+        name: "Team Member",
         role: "Manager",
         description:
             "Manager dedicated to driving innovative tech projects forward.",
         img: manager,
     },
     {
-        name: "Harry Garg",
+        name: "Team Member",
         role: "Designer",
         description:
             "Creative designer focused on merging aesthetics with functionality.",
         img: designer,
     },
     {
-        name: "Riya Bansal",
+        name: "Team Member",
         role: "Marketing",
         description:
             "A strategic marketer focused on creating impactful narratives.",

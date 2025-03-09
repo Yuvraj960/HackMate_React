@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import EventCard from "../components/EventCard";
 import eventsData from "../data/Events.js";

@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { teamMembers, services } from "../data/About";
 import "../styles/About.css";

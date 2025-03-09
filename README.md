@@ -45,8 +45,3 @@ npm install
 ```bash
 npm run dev
 ```
-
-## How to contribute to the project
-
-After making changes to the project, you must see Contributors.md file to know how to contribute to the project. (It is necessary to follow the guidelines mentioned in the Contributors.md file)
-Go to the [Contributing.md](./Contributing.md) file to know how to contribute to the project.

@@ -1,6 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
-
 import React from "react";
 import "../styles/Events.css";
 import { Link } from "react-router-dom";
